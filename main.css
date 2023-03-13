@@ -1,0 +1,27 @@
+body {
+    background: peachpuff
+}
+
+
+.container {
+    display: flex;
+    padding: 5px;
+}
+
+
+.navbar {
+
+    height: 150px;
+    flex: 1;
+    border: 2px solid plum;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.item {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+}
