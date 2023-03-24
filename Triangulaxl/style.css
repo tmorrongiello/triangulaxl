@@ -1,0 +1,149 @@
+
+
+
+.container, .container-paises {
+    
+    padding: 20px;
+    height: 730px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);     
+    
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: black;
+    font: normal bold 45px Georgia;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font: italic bold 20px monospace;
+
+}
+
+strong{
+    cursor: pointer;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.cards {
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+.cards.paises {
+    background: dodgerblue;
+}
+
+.cards.equipos {
+    background: peachpuff;
+}
+
+.fichas{
+    overflow: hidden;
+    height: 60px;
+    width: 360px;
+    border: 2px solid black;
+    background: salmon;
+    box-shadow: 10px 5px 5px dodgerblue;
+    
+}
+
+.disabled {
+    opacity: 20%;
+}
+
+.roy {
+    width:650px;
+    height: 650px;
+}
+
+.hide {
+    display: none;
+}
+
+.sub-fichas{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items:center;
+    font: bold 20px arial;
+    cursor:pointer;
+}
+
+.elegidos {
+    font: 40px arial;
+    border-radius: 4%;
+    background:peachpuff;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-self:center;
+    padding: 5px;
+    height: 50px;
+    width: 70%;
+    border: 2px solid black;
+    box-shadow: 5px 15px 5px dodgerblue;
+
+}
+
+
+
+.home, .after {
+    padding:0px 5px 15px;
+    border-radius: 10%;
+    width:20%;
+    height: 50px;
+    background: peachpuff;
+    border:2px solid;
+    text-align:center;
+    
+}
+
+.home {
+    justify-self:end;
+    box-shadow: 10px  3px 5px dodgerblue;
+}
+
+.after{
+    justify-self:start;
+    box-shadow: -10px 3px 5px dodgerblue;
+}
+
+img {
+    width: 370px;
+    height: 60px;
+}
+
+span {
+    font: 20px monospace;
+    display:block;
+}
+
+
+
+.equipos, .paises {
+    height: 80px;
+    border: 2px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    border-radius:10%
+}
